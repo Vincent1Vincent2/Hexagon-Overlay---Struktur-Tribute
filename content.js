@@ -11,7 +11,7 @@ class HexagonGridOverlay {
         // Load saved settings
         chrome.storage.sync.get(['hexagonEnabled', 'hexagonSize'], (result) => {
             this.enabled = result.hexagonEnabled || false;
-            this.size = result.hexagonSize || 80;
+            this.size = result.hexagonSize || 150;
             
             if (this.enabled) {
                 this.createGrid();
@@ -33,7 +33,6 @@ class HexagonGridOverlay {
                 this.recreateGrid();
             }
         }); 
-        this.createGrid();
     }
     
     createHexagon() {
