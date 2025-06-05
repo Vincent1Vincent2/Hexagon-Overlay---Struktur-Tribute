@@ -1,0 +1,94 @@
+/* Hexagon Tessellation Grid Overlay Styles */
+.hexagon-pattern-overlay {
+    position: fixed !important;
+    top: calc(var(--hex-size, 80px) * -2.5) !important;
+    left: calc(var(--hex-size, 80px) * -2) !important;
+    width: calc(100vw + var(--hex-size, 80px) * 4) !important;
+    height: calc(100vh + var(--hex-size, 80px) * 4) !important;
+    --hex-height: calc(var(--hex-size, 80px) * 1.1547);
+    --hex-width: var(--hex-size, 80px);
+    --row-spacing: calc(var(--hex-height) * 0.75);
+    z-index: 999999 !important;
+    pointer-events: none !important;
+    overflow: hidden !important;
+}
+
+.hex-row-overlay {
+    display: flex !important;
+    position: absolute !important;
+    left: 0 !important;
+    width: calc(100vw + var(--hex-size, 80px) * 6) !important;
+}
+
+.hex-row-overlay:nth-child(1) { top: calc(var(--row-spacing) * 0) !important;  transform: translateX(calc(var(--hex-width) * 0.75 * 1)) !important;  }
+.hex-row-overlay:nth-child(2) { top: calc(var(--row-spacing) * 0) !important; transform: translateX(calc(var(--hex-width) * 0.75 * 2)) !important; }
+.hex-row-overlay:nth-child(3) { top: calc(var(--row-spacing) * 2) !important; transform: translateX(calc(var(--hex-width) * 0.75 * 1)) !important;  }
+.hex-row-overlay:nth-child(4) { top: calc(var(--row-spacing) * 2) !important;transform: translateX(calc(var(--hex-width) * 0.75 * 2)) !important; }
+.hex-row-overlay:nth-child(5) { top: calc(var(--row-spacing) * 3) !important; transform: translateX(calc(var(--hex-width) * 0.75 * 1)) !important;  }
+.hex-row-overlay:nth-child(6) { top: calc(var(--row-spacing) * 3) !important; transform: translateX(calc(var(--hex-width) * 0.75 * 2)) !important; }
+.hex-row-overlay:nth-child(7) { top: calc(var(--row-spacing) * 4) !important; transform: translateX(calc(var(--hex-width) * 0.75 * 1)) !important;  }
+.hex-row-overlay:nth-child(8) { top: calc(var(--row-spacing) * 4) !important; transform: translateX(calc(var(--hex-width) * 0.75 * 2)) !important; }
+.hex-row-overlay:nth-child(9) { top: calc(var(--row-spacing) * 5) !important; transform: translateX(calc(var(--hex-width) * 0.75 * 1)) !important;  }
+.hex-row-overlay:nth-child(10) { top: calc(var(--row-spacing) * 5) !important; transform: translateX(calc(var(--hex-width) * 0.75 * 2)) !important; }
+.hex-row-overlay:nth-child(11) { top: calc(var(--row-spacing) * 6) !important;  transform: translateX(calc(var(--hex-width) * 0.75 * 1)) !important;  }
+.hex-row-overlay:nth-child(12) { top: calc(var(--row-spacing) * 6) !important; transform: translateX(calc(var(--hex-width) * 0.75 * 2)) !important; }
+.hex-row-overlay:nth-child(13) { top: calc(var(--row-spacing) * 7) !important;  transform: translateX(calc(var(--hex-width) * 0.75 * 1)) !important;  }
+.hex-row-overlay:nth-child(14) { top: calc(var(--row-spacing) * 7) !important; transform: translateX(calc(var(--hex-width) * 0.75 * 2)) !important; }
+.hex-row-overlay:nth-child(15) { top: calc(var(--row-spacing) * 8) !important;  transform: translateX(calc(var(--hex-width) * 0.75 * 1)) !important;  }
+.hex-row-overlay:nth-child(16) { top: calc(var(--row-spacing) * 8) !important; transform: translateX(calc(var(--hex-width) * 0.75 *2)) !important; }
+.hex-row-overlay:nth-child(17) { top: calc(var(--row-spacing) * 9) !important;  transform: translateX(calc(var(--hex-width) * 0.75 * 1)) !important;  }
+.hex-row-overlay:nth-child(18) { top: calc(var(--row-spacing) * 9) !important; transform: translateX(calc(var(--hex-width) * 0.75 * 2)) !important; }
+.hex-row-overlay:nth-child(19) { top: calc(var(--row-spacing) * 10) !important;  transform: translateX(calc(var(--hex-width) * 0.75 * 1)) !important;  }
+.hex-row-overlay:nth-child(20) { top: calc(var(--row-spacing) * 10) !important; transform: translateX(calc(var(--hex-width) * 0.75 * 2)) !important; }
+.hex-row-overlay:nth-child(21) { top: calc(var(--row-spacing) * 11) !important;  transform: translateX(calc(var(--hex-width) * 0.75 * 1)) !important;  }
+.hex-row-overlay:nth-child(22) { top: calc(var(--row-spacing) * 11) !important; transform: translateX(calc(var(--hex-width) * 0.75 * 2)) !important; }
+.hex-row-overlay:nth-child(23) { top: calc(var(--row-spacing) * 12) !important;  transform: translateX(calc(var(--hex-width) * 0.75 * 1)) !important;  }
+.hex-row-overlay:nth-child(24) { top: calc(var(--row-spacing) * 12) !important; transform: translateX(calc(var(--hex-width) * 0.75 *2)) !important; }
+.hex-row-overlay:nth-child(25) { top: calc(var(--row-spacing) * 13) !important;  transform: translateX(calc(var(--hex-width) * 0.75 * 1)) !important;  }
+.hex-row-overlay:nth-child(26) { top: calc(var(--row-spacing) * 13) !important; transform: translateX(calc(var(--hex-width) * 0.75 * 2)) !important; }
+.hex-row-overlay:nth-child(27) { top: calc(var(--row-spacing) * 14) !important;  transform: translateX(calc(var(--hex-width) * 0.75 * 1)) !important;  }
+.hex-row-overlay:nth-child(28) { top: calc(var(--row-spacing) * 14) !important; transform: translateX(calc(var(--hex-width) * 0.75 * 2)) !important; }
+
+.hexagon-overlay-item {
+    width: var(--hex-width) !important;
+    height: var(--hex-height) !important;
+    position: relative !important;
+    flex-shrink: 0 !important;
+    fill: none;
+}
+
+/* Hide every other hexagon in each row to create gaps for tessellation */
+.hexagon-overlay-item:nth-child(even) {
+    visibility: hidden !important;
+    width: calc(var(--hex-width) / 2) !important;
+}
+
+/* Offset visible hexagons vertically for proper nesting */
+.hex-row-overlay:nth-child(odd) .hexagon-overlay-item:nth-child(odd) {
+    transform: translateY(calc(var(--row-spacing) * -0.25)) !important;
+}
+
+.hex-row-overlay:nth-child(even) .hexagon-overlay-item:nth-child(odd) {
+    transform: translateY(calc(var(--row-spacing) * 0.25)) !important;
+}
+
+.hexagon-overlay-item svg {
+    width: 100% !important;
+    height: 100% !important;
+    display: block !important;
+}
+
+
+.hexagon-border-dark {
+    fill: none !important;
+    stroke: #000000 !important;
+    stroke-width: 2 !important;
+    opacity: 1 !important;
+    mix-blend-mode: difference !important;
+}
+
+
+/* Ensure the overlay doesn't interfere with page interactions */
+.hexagon-pattern-overlay * {
+    pointer-events: none !important;
+}
