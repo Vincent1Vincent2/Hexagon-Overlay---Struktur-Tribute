@@ -31,7 +31,7 @@ If this extension ever changes to include new features that affect privacy, this
 ## Contact
 
 For questions or concerns, please contact:  
-📧 **[your-email@example.com]**
+📧 **[vincent.ahlin99@gmail.com]**
 
 ---
 
