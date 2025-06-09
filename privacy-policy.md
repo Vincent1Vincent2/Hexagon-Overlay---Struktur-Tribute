@@ -20,7 +20,6 @@ All functionality is self-contained and runs entirely in your browser.
 ## Permissions Justification
 
 - `activeTab`: Only used to apply the overlay when the user interacts with the extension.
-- `scripting`: Injects local scripts and styles to render the hexagon grid.
 - `storage`: Stores whether the overlay is enabled or disabled between sessions (locally).
 - `host_permissions: <all_urls>`: Needed to apply the overlay on any user-selected page.
 
